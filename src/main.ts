@@ -36,12 +36,12 @@ async function bootstrap() {
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('docs', app, document);
+  SwaggerModule.setup('api-docs', app, document);
 
   await app.listen(process.env.PORT as unknown as number);
 
   console.log(
-    `Documentation Swagger disponible sur http://localhost:${process.env.PORT}/docs`,
+    `Documentation Swagger disponible sur http://localhost:${process.env.PORT}/api-docs`,
   );
 }
 bootstrap();
