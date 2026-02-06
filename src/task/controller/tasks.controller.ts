@@ -13,18 +13,18 @@ import {
   ApiTags,
   ApiOperation,
   ApiResponse,
-  ApiBearerAuth,
   ApiParam,
   ApiBadRequestResponse,
   ApiNoContentResponse,
   ApiOkResponse,
+  ApiSecurity,
 } from '@nestjs/swagger';
 import { CreateTaskDto } from '../model/CreateTaskDto';
 import { UpdateTaskDto } from '../model/UpdateTaskDto';
 import type { Task } from '../interface/task.interface';
 
 @ApiTags('tasks')
-@ApiBearerAuth()
+@ApiSecurity('api-auth-token')
 @Controller('tasks')
 export class TasksController {
   private tasks: Task[] = [];
