@@ -28,11 +28,25 @@ Swagger
 
 **Endpoints**
 
-GET /tasks
-GET /tasks/by-title/:title
-POST /tasks
-PATCH /tasks/:id
-DELETE /tasks/:id
+## Endpoints
+
+- **GET /health**  
+  Vérifie que l’API est bien en fonctionnement.
+
+- **GET /tasks**  
+  Récupère la liste de toutes les tâches.
+
+- **GET /tasks/by-title/:title**  
+  Récupère une tâche à partir de son titre.
+
+- **POST /tasks**  
+  Crée une nouvelle tâche.
+
+- **PATCH /tasks/:id**  
+  Modifie partiellement une tâche existante.
+
+- **DELETE /tasks/:id**  
+  Supprime une tâche à partir de son identifiant.
 
 **Auteur**
 
