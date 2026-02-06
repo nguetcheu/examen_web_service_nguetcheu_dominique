@@ -52,3 +52,14 @@ Swagger
 
 NGUETCHEU KUINSI Dominique
 dnguetcheu@gmail.com
+
+## Processus
+
+- **Liste des endpoints**
+  ![Swagger](assets/swagger.png)
+
+- **Ajout du token**
+  ![Swagger](assets/swagger2.png)
+
+- **Creation de la task**
+  ![Swagger](assets/swagger3.png)
