@@ -61,5 +61,11 @@ dnguetcheu@gmail.com
 - **Ajout du token**
   ![Swagger](assets/swagger2.png)
 
-- **Creation de la task**
+- **Endpoint Creation de la task**
   ![Swagger](assets/swagger3.png)
+
+- **Endpoint Liste des tasks**
+  ![Swagger](assets/swagger4.png)
+
+- **Endpoint etat de API**
+  ![Swagger](assets/swagger4.png)
