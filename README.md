@@ -1,13 +1,14 @@
 **Task API**
+
 API REST NestJS – TP Final Web Services & REST API (M2 LFD – École PMN)
 
 **Installation**
 
 npm install
 
-Configuration
+**Configuration**
 
-Créer un fichier .env : pour le cas de examen, jai versionne deja un fichier env qui comprend le token pour les tests
+Créer un fichier .env : **pour le cas de examen, jai versionne deja un fichier env qui comprend le token pour les tests**
 
 PORT\=3000
 
